@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { HeartPlus, LockKeyhole, Package, Quote } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -166,6 +166,47 @@ const page = () => {
 					className="text-xl uppercase px-8 py-2 bg-earth-light hover:bg-earth-dark text-white rounded-sm mt-4">
 					Purchase A Postcard
 				</Link>
+			</section>
+
+			<section className="px-48 py-6 grid grid-cols-3 gap-8">
+				<div className="flex items-center gap-4 border-r border-gray-300">
+					<div className="rounded-full bg-earth-dark p-3">
+						<LockKeyhole className="text-white" />
+					</div>
+
+					<div className="">
+						<div className="text-lg font-semibold uppercase">
+							Secure Payment
+						</div>
+						<div className="">All our payments our SSL secured</div>
+					</div>
+				</div>
+
+				<div className="flex items-center gap-4 border-r border-gray-300">
+					<div className="rounded-full bg-earth-dark p-3">
+						<Package className="text-white" />
+					</div>
+
+					<div className="">
+						<div className="text-lg font-semibold uppercase">
+							Delivered With Care
+						</div>
+						<div className="">Super fast shipping to your door</div>
+					</div>
+				</div>
+
+				<div className="flex items-center gap-4">
+					<div className="rounded-full bg-earth-dark p-3">
+						<HeartPlus className="text-white" />
+					</div>
+
+					<div className="">
+						<div className="text-lg font-semibold uppercase">
+							Excellent Service
+						</div>
+						<div className="">Live chat and phone support</div>
+					</div>
+				</div>
 			</section>
 		</>
 	);

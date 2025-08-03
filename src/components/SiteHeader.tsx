@@ -10,6 +10,7 @@ const SiteHeader = () => {
 					alt="logo"
 					width={200}
 					height={20}
+					className="h-auto w-auto"
 				/>
 			</Link>
 

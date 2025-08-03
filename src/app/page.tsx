@@ -1,4 +1,3 @@
-import SiteHeader from "@/components/SiteHeader";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -10,8 +9,6 @@ export const metadata: Metadata = {
 const page = () => {
 	return (
 		<>
-			<SiteHeader />
-
 			<section className="bg-[url(/home-banner.jpg)] bg-center bg-cover py-64 grid place-items-center">
 				<div className="grid place-items-center gap-6">
 					<h1 className="text-8xl tracking-widest font-semibold text-earth-dark">

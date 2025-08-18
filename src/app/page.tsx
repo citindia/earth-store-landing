@@ -1,3 +1,4 @@
+import GiftPostcard from "@/components/GiftPostcard";
 import { HeartPlus, LockKeyhole, Package, Quote } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -152,23 +153,9 @@ const page = () => {
 				</div>
 			</section>
 
-			<section className="bg-[url(/call-to-action.jpg)] bg-center bg-cover py-28 px-48 grid place-items-center gap-8">
-				<div className="text-5xl font-semibold uppercase">
-					Give the Gift of a Postcard
-				</div>
+			<GiftPostcard />
 
-				<div className="text-lg">
-					Give the gift of a lasting memory with a postcard
-				</div>
-
-				<Link
-					href={""}
-					className="text-xl uppercase px-8 py-2 bg-earth-light hover:bg-earth-dark text-white rounded-sm mt-4">
-					Purchase A Postcard
-				</Link>
-			</section>
-
-			<section className="px-48 py-6 grid grid-cols-3 gap-8">
+			<section className="py-16 px-48 grid grid-cols-3 gap-8">
 				<div className="flex items-center gap-4 border-r border-gray-300">
 					<div className="rounded-full bg-earth-dark p-3">
 						<LockKeyhole className="text-white" />

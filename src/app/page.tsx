@@ -157,7 +157,7 @@ const page = () => {
 
 			<section className="py-16 px-48 grid grid-cols-3 gap-8">
 				<div className="flex items-center gap-4 border-r border-gray-300">
-					<div className="rounded-full bg-earth-dark p-3">
+					<div className="rounded-full bg-earth-light p-3">
 						<LockKeyhole className="text-white" />
 					</div>
 
@@ -170,7 +170,7 @@ const page = () => {
 				</div>
 
 				<div className="flex items-center gap-4 border-r border-gray-300">
-					<div className="rounded-full bg-earth-dark p-3">
+					<div className="rounded-full bg-earth-light p-3">
 						<Package className="text-white" />
 					</div>
 
@@ -183,7 +183,7 @@ const page = () => {
 				</div>
 
 				<div className="flex items-center gap-4">
-					<div className="rounded-full bg-earth-dark p-3">
+					<div className="rounded-full bg-earth-light p-3">
 						<HeartPlus className="text-white" />
 					</div>
 

@@ -18,9 +18,37 @@ const page = () => {
 
 			<section className="py-28 px-48 grid grid-cols-2 gap-4">
 				<div className="">
-					<div className="text-4xl uppercase font-semibold">Get In Touch</div>
+					<div className="text-4xl uppercase font-semibold mb-8">
+						Get In Touch
+					</div>
 
-					<div className=""></div>
+					<div className="p-8 shadow-lg me-12 rounded-lg space-y-4">
+						<input
+							type="text"
+							placeholder="Full Name"
+							className="border border-gray-300 p-4 w-full"
+						/>
+
+						<input
+							type="number"
+							placeholder="Phone Number"
+							className="border border-gray-300 p-4 w-full"
+						/>
+
+						<input
+							type="email"
+							placeholder="Email Address"
+							className="border border-gray-300 p-4 w-full"
+						/>
+
+						<textarea
+							placeholder="Enter your Message"
+							className="border border-gray-300 p-4 w-full"></textarea>
+
+						<button className="text-xl uppercase px-8 py-2 bg-earth-light hover:bg-earth-dark text-white rounded-sm">
+							Send Now
+						</button>
+					</div>
 				</div>
 
 				<div className="">

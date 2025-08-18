@@ -1,3 +1,4 @@
+import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { ReactNode } from "react";
 import "./globals.css";
@@ -13,6 +14,8 @@ const RootLayout = ({ children }: RootLayoutProps) => {
 				<SiteHeader />
 
 				<main className="">{children}</main>
+
+				<SiteFooter />
 			</body>
 		</html>
 	);

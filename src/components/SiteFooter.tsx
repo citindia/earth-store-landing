@@ -7,7 +7,6 @@ const SiteFooter = () => {
 			<div className="space-x-4">
 				<Link href="/">Home</Link>
 				<Link href="/about">About</Link>
-				<Link href="/shop">Shop</Link>
 				<Link href="/contact">Contact</Link>
 			</div>
 

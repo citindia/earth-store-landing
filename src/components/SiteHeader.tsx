@@ -17,7 +17,6 @@ const SiteHeader = () => {
 			<nav className="uppercase tracking-widest text-lg flex gap-8">
 				<Link href="/">Home</Link>
 				<Link href="/about">About</Link>
-				<Link href="/shop">Shop</Link>
 				<Link href="/contact">Contact</Link>
 			</nav>
 		</header>

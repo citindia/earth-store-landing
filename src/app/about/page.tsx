@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home | Earth Store",
-  description: "Home page of Earth Store",
+  title: "About | Earth Store",
+  description: "About page of Earth Store",
 };
 
 const page = () => {

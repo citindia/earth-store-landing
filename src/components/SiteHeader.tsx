@@ -21,6 +21,11 @@ const SiteHeader = () => {
           Home
         </Link>
         <Link
+          href="/products"
+          className="hover:text-earth-dark">
+          Products
+        </Link>
+        <Link
           href="/about"
           className="hover:text-earth-dark">
           About

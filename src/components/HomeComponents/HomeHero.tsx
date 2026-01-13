@@ -13,7 +13,7 @@ const HomeHero = () => {
         </p>
 
         <Link
-          href={"/"}
+          href={"/products"}
           className="bg-earth-light hover:bg-earth-dark mt-4 rounded-sm px-8 py-2 text-xl text-white uppercase">
           Shop Now
         </Link>

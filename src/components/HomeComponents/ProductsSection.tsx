@@ -1,49 +1,35 @@
-import Image from "next/image";
+import ProductCard from "../ProductCard";
 
 const ProductsSection = () => {
+  const homeProducts = [
+    {
+      imageUrl: "/products/poster1.jpg",
+      category: "Posters",
+      title: "Poster V1",
+      price: "457",
+    },
+    {
+      imageUrl: "/products/poster2.jpg",
+      category: "Posters",
+      title: "Poster V2",
+      price: "892",
+    },
+    {
+      imageUrl: "/products/poster3.jpg",
+      category: "Posters",
+      title: "Poster V3",
+      price: "123",
+    },
+  ];
+
   return (
     <section className="grid grid-cols-3 gap-12 border-b border-gray-300 px-56 py-28">
-      <div className="grid gap-1">
-        <Image
-          src={"/poster1.jpg"}
-          alt="poster1.jpg"
-          width={350}
-          height={350}
-          className="aspect-square h-auto w-full rounded-sm"
+      {homeProducts.map((product, index) => (
+        <ProductCard
+          key={index}
+          productInfo={product}
         />
-
-        <div className="text-gray-500">Posters</div>
-        <div className="text-lg font-bold uppercase">Poster V1</div>
-        <div className="font-semibold">₹239.00</div>
-      </div>
-
-      <div className="grid gap-1">
-        <Image
-          src={"/poster2.jpg"}
-          alt="poster2.jpg"
-          width={350}
-          height={350}
-          className="aspect-square h-auto w-full rounded-sm"
-        />
-
-        <div className="text-gray-500">Posters</div>
-        <div className="text-lg font-bold uppercase">Poster V2</div>
-        <div className="font-semibold">₹212.00</div>
-      </div>
-
-      <div className="grid gap-1">
-        <Image
-          src={"/poster3.jpg"}
-          alt="poster3.jpg"
-          width={350}
-          height={350}
-          className="aspect-square h-auto w-full rounded-sm"
-        />
-
-        <div className="text-gray-500">Posters</div>
-        <div className="text-lg font-bold uppercase">Poster V3</div>
-        <div className="font-semibold">₹251.00</div>
-      </div>
+      ))}
     </section>
   );
 };

@@ -10,7 +10,7 @@ const FeaturesSection = () => {
 
         <div className="">
           <div className="text-lg font-semibold uppercase">Secure Payment</div>
-          <div className="">All our payments our SSL secured</div>
+          <div className="">All our payments are SSL secured</div>
         </div>
       </div>
 

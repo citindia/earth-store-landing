@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
             <div className="space-y-4">
               <Image
                 src={"/avatar-1.jpeg"}
-                alt="avatar-1.jpeg"
+                alt="Jennifer Lewis"
                 width={44}
                 height={44}
                 className="aspect-square h-10 w-10 rounded-full"
@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
             <div className="space-y-4">
               <Image
                 src={"/avatar-2.jpeg"}
-                alt="avatar-2.jpeg"
+                alt="Alicia Heart"
                 width={44}
                 height={44}
                 className="aspect-square h-10 w-10 rounded-full"
@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
             <div className="space-y-4">
               <Image
                 src={"/avatar-3.jpeg"}
-                alt="avatar-3.jpeg"
+                alt="Juan Carlos"
                 width={44}
                 height={44}
                 className="aspect-square h-10 w-10 rounded-full"

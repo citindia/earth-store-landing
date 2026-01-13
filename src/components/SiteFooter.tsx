@@ -5,9 +5,26 @@ const SiteFooter = () => {
   return (
     <footer className="flex items-center justify-between border-t border-gray-300 px-48 py-6">
       <div className="space-x-4">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+        <Link
+          href="/"
+          className="hover:text-earth-dark">
+          Home
+        </Link>
+        <Link
+          href="/products"
+          className="hover:text-earth-dark">
+          Products
+        </Link>
+        <Link
+          href="/about"
+          className="hover:text-earth-dark">
+          About
+        </Link>
+        <Link
+          href="/contact"
+          className="hover:text-earth-dark">
+          Contact
+        </Link>
       </div>
 
       <Image
@@ -18,7 +35,7 @@ const SiteFooter = () => {
         className="h-auto w-auto"
       />
 
-      <div>Copyright © 2025 Planet Earth Store</div>
+      <div>Copyright © 2025 Earth Store</div>
     </footer>
   );
 };

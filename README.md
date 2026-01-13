@@ -12,6 +12,13 @@ A modern, responsive landing page for Earth Store. This project showcases a clea
 - **Call to Action**: Promotional section for gift postcards
 - **Features Section**: Highlights secure payment, fast delivery, and excellent service
 
+### Products Page
+
+- **Postcards Section**: Browse and shop various postcard designs
+- **Posters Section**: Explore poster collections with detailed product cards
+- **Product Cards**: Interactive product displays with images and information
+- **Shopping Experience**: Organized product categories with easy navigation
+
 ### About Page
 
 - **Hero Banner**: Full-width banner introducing the company
@@ -32,12 +39,18 @@ A modern, responsive landing page for Earth Store. This project showcases a clea
 - **Custom Color Scheme**: Earth-themed color palette (earth-dark, earth-light)
 - **Navigation**: Clean header navigation across all pages
 - **Footer**: Consistent footer with links and information
+- **Performance**: React Compiler optimization for enhanced performance
+- **Type Safety**: Typed routes for better development experience
 
 ## 📸 Preview
 
 ### Home Page
 
 ![Home Page Preview](/public/preview/home.jpeg)
+
+### Products Page
+
+![Products Page Preview](/public/preview/products.jpeg)
 
 ### About Page
 
@@ -55,6 +68,7 @@ A modern, responsive landing page for Earth Store. This project showcases a clea
 - **Icons**: Lucide React 0.562.0
 - **Image Optimization**: Sharp 0.34.5
 - **Package Manager**: Bun (lockfile present)
+- **Development Tools**: ESLint, Prettier, TypeScript strict mode
 
 ## 📁 Project Structure
 
@@ -86,11 +100,18 @@ earth-store-landing/
 │   │   │   └── page.tsx
 │   │   ├── contact/             # Contact page
 │   │   │   └── page.tsx
+│   │   ├── products/            # Products page
+│   │   │   └── page.tsx
 │   │   ├── layout.tsx           # Root layout with header and footer
 │   │   ├── page.tsx             # Home page
 │   │   └── globals.css          # Global styles and custom colors
 │   └── components/
+│       ├── AboutComponents/     # About page specific components
+│       ├── ContactComponents/   # Contact page specific components
+│       ├── HomeComponents/      # Home page specific components
+│       ├── ShopComponents/      # Products/Shop page components
 │       ├── GiftPostcard.tsx     # Call to action component
+│       ├── ProductCard.tsx      # Product card component
 │       ├── SiteFooter.tsx       # Footer component
 │       └── SiteHeader.tsx       # Navigation header
 ├── .gitignore
@@ -148,7 +169,7 @@ npm run dev
 ### Navigation
 
 - Click on the logo to return to the home page
-- Use the navigation menu to switch between Home, About, and Contact pages
+- Use the navigation menu to switch between Home, Products, About, and Contact pages
 - All pages feature consistent navigation and footer
 
 ### Home Page
@@ -156,6 +177,12 @@ npm run dev
 - Browse featured products in the Products section
 - Read customer testimonials in the Testimonials section
 - Click "Shop Now" or "Purchase A Postcard" to explore products
+
+### Products Page
+
+- Browse postcards and posters collections
+- View detailed product information with ProductCard components
+- Explore organized product categories
 
 ### About Page
 
@@ -178,7 +205,17 @@ npm run dev
 
 ### Component Architecture
 
-- Reusable components (GiftPostcard, SiteHeader, SiteFooter)
+- Organized component structure with page-specific folders
+- Reusable components (GiftPostcard, ProductCard, SiteHeader, SiteFooter)
+- Modular design with separation of concerns
+- TypeScript interfaces for type safety
+
+### Performance Features
+
+- React Compiler enabled for automatic optimization
+- Typed routes for enhanced type safety
+- Next.js Image optimization for better performance
+- Sharp for efficient image processing
 
 ### UI Framework
 

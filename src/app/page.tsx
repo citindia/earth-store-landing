@@ -1,3 +1,4 @@
+import GiftPostcard from "@/components/GiftPostcard";
 import {
   HeartPlusIcon,
   LockKeyholeIcon,
@@ -37,14 +38,14 @@ const page = () => {
       {/* Hero Section End */}
 
       {/* Products Section Start */}
-      <section className="grid grid-cols-3 gap-6 border-b border-gray-300 px-48 py-28">
+      <section className="grid grid-cols-3 gap-12 border-b border-gray-300 px-56 py-28">
         <div className="grid gap-1">
           <Image
             src={"/poster1.jpg"}
             alt="poster1.jpg"
             width={350}
             height={350}
-            className="aspect-square h-auto w-auto rounded-sm"
+            className="aspect-square h-auto w-full rounded-sm"
           />
 
           <div className="text-gray-500">Posters</div>
@@ -58,7 +59,7 @@ const page = () => {
             alt="poster2.jpg"
             width={350}
             height={350}
-            className="aspect-square h-auto w-auto rounded-sm"
+            className="aspect-square h-auto w-full rounded-sm"
           />
 
           <div className="text-gray-500">Posters</div>
@@ -72,7 +73,7 @@ const page = () => {
             alt="poster3.jpg"
             width={350}
             height={350}
-            className="aspect-square h-auto w-auto rounded-sm"
+            className="aspect-square h-auto w-full rounded-sm"
           />
 
           <div className="text-gray-500">Posters</div>
@@ -83,7 +84,7 @@ const page = () => {
       {/* Products Section End */}
 
       {/* Testimonials Section Start */}
-      <section className="space-y-8 px-48 py-28">
+      <section className="space-y-8 px-56 py-28">
         <div className="text-5xl font-semibold uppercase">
           What Our Customers Say
         </div>
@@ -164,26 +165,12 @@ const page = () => {
       {/* Testimonials Section End */}
 
       {/* Call to Action Section Start */}
-      <section className="grid place-items-center gap-8 bg-[url(/call-to-action.jpg)] bg-cover bg-center px-48 py-28">
-        <div className="text-5xl font-semibold uppercase">
-          Give the Gift of a Postcard
-        </div>
-
-        <div className="text-lg">
-          Give the gift of a lasting memory with a postcard
-        </div>
-
-        <Link
-          href={"/"}
-          className="bg-earth-light hover:bg-earth-dark mt-4 rounded-sm px-8 py-2 text-xl text-white uppercase">
-          Purchase A Postcard
-        </Link>
-      </section>
+      <GiftPostcard />
       {/* Call to Action Section End */}
 
       {/* Features Section Start */}
-      <section className="grid grid-cols-3 gap-8 px-48 py-16">
-        <div className="flex items-center gap-4 border-r border-gray-300">
+      <section className="grid grid-cols-17 place-items-center gap-4 px-52 py-16">
+        <div className="col-span-5 flex items-center gap-4">
           <div className="bg-earth-dark rounded-full p-3">
             <LockKeyholeIcon className="text-white" />
           </div>
@@ -196,7 +183,9 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-4 border-r border-gray-300">
+        <div className="h-14 w-px bg-gray-500"></div>
+
+        <div className="col-span-5 flex items-center gap-4">
           <div className="bg-earth-dark rounded-full p-3">
             <PackageIcon className="text-white" />
           </div>
@@ -209,7 +198,9 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="h-14 w-px bg-gray-500"></div>
+
+        <div className="col-span-5 flex items-center gap-4">
           <div className="bg-earth-dark rounded-full p-3">
             <HeartPlusIcon className="text-white" />
           </div>

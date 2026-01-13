@@ -40,7 +40,6 @@ A modern, responsive landing page for Earth Store. This project showcases a clea
 - **Navigation**: Clean header navigation across all pages
 - **Footer**: Consistent footer with links and information
 - **Performance**: React Compiler optimization for enhanced performance
-- **Type Safety**: Typed routes for better development experience
 
 ## 📸 Preview
 

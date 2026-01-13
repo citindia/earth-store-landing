@@ -19,7 +19,7 @@ const page = () => {
       {/* Hero Section End */}
 
       {/* 2nd Section Start */}
-      <section className="grid grid-cols-2 gap-16 px-56 py-28">
+      <section className="grid grid-cols-2 gap-36 px-56 py-28">
         {/* Form Section */}
         <div className="">
           <div className="mb-8 text-4xl font-semibold uppercase">

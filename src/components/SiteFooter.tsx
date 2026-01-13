@@ -18,7 +18,7 @@ const SiteFooter = () => {
         className="h-auto w-auto"
       />
 
-      <div className="">Copyright © 2025 Planet Earth Store</div>
+      <div>Copyright © 2025 Planet Earth Store</div>
     </footer>
   );
 };

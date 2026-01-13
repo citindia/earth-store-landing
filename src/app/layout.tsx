@@ -13,7 +13,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
       <body>
         <SiteHeader />
 
-        <main className="">{children}</main>
+        <main>{children}</main>
 
         <SiteFooter />
       </body>
